@@ -49,16 +49,16 @@ body {
 /* INPUT TRANSLATE OUTPUT AREA */
 .translation-area {
     max-width: 600px;
-    padding: 1.2rem;
+    padding: 2rem;
     margin:auto;
     text-align: center;
 }
 
-.translation-area .text-input {
+.text-input {
     display: block;
     box-sizing: border-box;
     min-width: 100%;
-    min-height: 130px;
+    min-height: 157px;
     border-radius: 2rem;
     border-color: var(--yellow);
     border-width: 2px;
@@ -83,11 +83,6 @@ body {
     margin: 1rem;
 }
 
-.image-eyes {
-    max-width: 4%;
-    margin: auto;
-}
-
 .translation-prompt {
     font-weight: bold;
     color: var(--light-blue);
@@ -95,6 +90,22 @@ body {
     margin: 0;
 }
 
+.text-output {
+    display: block;
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 157px;
+    border-radius: 2rem;
+    border-color: var(--light-blue);
+    border-width: 2px;
+    outline: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.text-output::placeholder {
+    font-family: var(--body-font);
+}
 
 
 /* FOOTER */
@@ -110,10 +121,13 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
     text-align: center;
+    padding-top: 1rem;
+    margin-top: 0;
 }
 
 .footer-text {
     /* color: var(--light-yellow); */
     font-family: var(--body-font);
     text-align: center;
+    margin-bottom: 0;
 }
