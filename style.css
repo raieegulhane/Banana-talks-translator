@@ -1,0 +1,118 @@
+/* Head fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Rampart+One&display=swap');
+
+/* Body fonts */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/* variables */
+:root {
+    /* fonts */
+    --head-font: 'Rampart One', cursive;
+    --body-font: 'Architects Daughter', cursive;;
+
+    /* colors */
+    --yellow: #ffd55d;
+    --light-yellow: #ffde83;
+    --light-blue: #115695;
+    --blue: #0c4574;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font);
+    letter-spacing: 1.5px;
+}
+
+
+/* HEADER */
+.header {
+    background-color: var(--yellow);
+    color: var(--blue);
+    justify-content: center;
+}
+
+.header-image {
+    max-width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.header-title {
+    font-family: var(--head-font);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 0.5rem;;
+    text-align: center;
+}
+
+
+/* INPUT TRANSLATE OUTPUT AREA */
+.translation-area {
+    max-width: 600px;
+    padding: 1.2rem;
+    margin:auto;
+    text-align: center;
+}
+
+.text-input {
+    display: block;
+    min-width: 100%;
+    height: 130px;
+    border-radius: 2rem;
+    border-color: var(--yellow);
+    border-width: 2px;
+    padding: 1rem;
+}
+
+.text-input::placeholder {
+    font-family: var(--body-font);
+}
+
+.btn-translate {
+    background-color: var(--yellow);
+    color: var(--blue);
+    font-family: var(--body-font);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.image-eyes {
+    max-width: 4%;
+    margin: auto;
+}
+
+.translation-prompt {
+    font-weight: bold;
+    color: var(--light-blue);
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+
+
+/* FOOTER */
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: var(--blue);
+    color: white;
+}
+
+.footer-title {
+    color: var(--yellow);
+    font-family: var(--head-font);
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.footer-text {
+    /* color: var(--light-yellow); */
+    font-family: var(--body-font);
+    text-align: center;
+}
