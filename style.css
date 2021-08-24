@@ -69,6 +69,7 @@ body {
 
 .text-input::placeholder {
     font-family: var(--body-font);
+    color: var(--light-yellow);
 }
 
 .btn-translate {
@@ -110,6 +111,7 @@ body {
 
 .text-output::placeholder {
     font-family: var(--body-font);
+    color: var(--light-blue);
 }
 
 
