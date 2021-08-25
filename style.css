@@ -54,17 +54,21 @@ body {
     text-align: center;
 }
 
-.text-input {
+.text-area {
     display: block;
     box-sizing: border-box;
     min-width: 100%;
     min-height: 157px;
     border-radius: 2rem;
-    border-color: var(--yellow);
     border-width: 2px;
     outline: none;
     padding: 1rem;
     margin: 0;
+    resize: none;
+}
+
+.text-input {
+    border-color: var(--yellow);
 }
 
 .text-input::placeholder {
@@ -97,16 +101,7 @@ body {
 }
 
 .text-output {
-    display: block;
-    box-sizing: border-box;
-    min-width: 100%;
-    min-height: 157px;
-    border-radius: 2rem;
     border-color: var(--light-blue);
-    border-width: 2px;
-    outline: none;
-    padding: 1rem;
-    margin: 0;
 }
 
 .text-output::placeholder {
