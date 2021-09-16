@@ -128,9 +128,48 @@ body {
 }
 
 .footer-text {
-    /* color: var(--light-yellow); */
     font-family: var(--body-font);
     text-align: center;
     padding: 0rem 1rem;
-    margin-bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.social-media {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+svg {
+    fill: var(--light-yellow);
+    width: 30px;
+    height: 30px;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    margin: 0.3rem 0.7rem;
+}
+
+svg:hover {
+    background-color: var(--yellow);
+    fill: var(--light-blue);
+}
+
+.github-sourcecode {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 00.5rem;
+}
+
+.git-repo {
+    color: white;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+}
+
+.git-repo:hover {
+    background-color: var(--yellow);
+    color: var(--blue);
+    border-color: var(--yellow);
 }
