@@ -1,4 +1,4 @@
-# Banana-talks-translator
+# Banana Talks Translator
 
 
 DESCRIPTION:
