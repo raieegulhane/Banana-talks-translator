@@ -10,5 +10,5 @@ DESCRIPTION:
 
 APP PREVIEW:
 <br>
-![image](https://user-images.githubusercontent.com/64693025/133591557-7a1d24a6-1b82-4853-9864-29c7c4dfd06c.png)
+![image](https://user-images.githubusercontent.com/64693025/133592041-4e303ffe-c1c6-4cee-a172-6800f2816c0b.png)
 
